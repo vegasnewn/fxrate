@@ -3,7 +3,7 @@ import React from 'react'
 const Spinner = () => {
   return (
     <svg
-      className="mx-auto animate-spin w-52 h-52 sm:w-56 sm:h-56 md:w-60 md:h-60"
+      className="w-40 h-40 mx-auto animate-spin sm:w-48 sm:h-48 md:w-56 md:h-56"
       viewBox="0 0 24 24"
     >
       <path
