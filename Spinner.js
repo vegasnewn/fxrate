@@ -1,7 +1,7 @@
 import React from "./_snowpack/pkg/react.js";
 const Spinner = () => {
   return /* @__PURE__ */ React.createElement("svg", {
-    className: "w-40 h-40 mx-auto animate-spin sm:w-48 sm:h-48 md:w-56 md:h-56",
+    className: "mx-auto w-44 h-44 animate-spin sm:w-56 sm:h-56 md:w-64 md:h-64",
     viewBox: "0 0 24 24"
   }, /* @__PURE__ */ React.createElement("path", {
     opacity: "0.2",

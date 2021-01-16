@@ -24,13 +24,13 @@ const App = () => {
     setModalOpen(true);
   };
   return /* @__PURE__ */ React.createElement("div", {
-    className: "h-screen"
+    className: "h-full"
   }, /* @__PURE__ */ React.createElement("h1", {
     className: "m-8 text-2xl font-semibold text-center text-blue-600 sm:m-10 md:m-12 sm:text-3xl md:text-4xl"
   }, "Exchange Rates"), /* @__PURE__ */ React.createElement("ul", {
     className: "space-y-6 sm:space-y-8 md:space-y-10"
   }, loading && /* @__PURE__ */ React.createElement("div", {
-    className: "grid mt-10 sm:mt-14 md:mt-20 gap-y-20 sm:gap-y-24 md:gap-y-32"
+    className: "grid mt-10 sm:mt-14 md:mt-20 gap-y-24 sm:gap-y-28 md:gap-y-36"
   }, /* @__PURE__ */ React.createElement(Spinner, null), /* @__PURE__ */ React.createElement(Spinner, null)), !loading && currencies.map((currency) => /* @__PURE__ */ React.createElement("li", {
     key: currency.base,
     className: "text-center"
