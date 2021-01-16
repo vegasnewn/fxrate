@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-modal": "./react-modal.js",
+    "swr": "./swr.js"
+  }
+}
